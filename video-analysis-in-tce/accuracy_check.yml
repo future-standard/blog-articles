@@ -30,7 +30,6 @@ models:
             dst_width: 608
             dst_height: 608
             interpolation: Area
-          - type: rgb_to_bgr
         postprocessing:
           - type: resize_prediction_boxes
           - type: filter
